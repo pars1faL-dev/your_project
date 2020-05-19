@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>relax music</title>
+  <link href="https://static.codepen.io/assets/favicon/apple-touch-icon-5ae1a0698dcc2402e9712f7d01ed509a57814f994c660df9f7a952f3060705ee.png" rel="apple-touch-icon" type="image/png">
+  <meta name="apple-mobile-web-app-title" content="CodePen">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <style type="text/css">
+  	body{
+		background: url('video.png');
+		background-size: cover;
+	}
+	.bgvideo {
+  		position: fixed;
+ 		right: 0;
+ 		bottom: 0;
+        min-width: 100%;
+		min-height: 100%;
+		width: auto;
+		height: auto;
+		z-index: -9999;
+	}
+  </style>
+</head>
+<body>
+	<video autoplay loop muted class="bgvideo" id="bgvideo">
+		<source src="video.mp4" type="video/mp4">
+			
+		</source>
+	</video>
+	<div class="col-5 bg-dark" style="margin-left: auto; margin-right: auto; height: 966px">
+		<div class="row">
+			<div class="col-12 border" style="height: 70px">
+				<p>RELAX MUSIC FOR YOU</p>
+				<p>+3 new music everyweek</p>
+			</div>
+		</div>
+		
+	
+		<div class="col-5 bg-dark" style="padding-top: 10px; height: 300px;display: flex">
+			<div class="col-6 mx-auto">
+				<p>Macintosh plus - 2017</p>
+				<p>Jack Stauber - Coffee</p>
+				<p>Joji - worldstar money</p>
+			</div>
+			<div class="col-6" >
+				<audio controls="controls">
+					<source src="song.ogg" type="audio/ogg">
+					<source src="1.mp3" type="audio/mpeg">
+				</audio>
+				<audio controls="controls" style="margin-top: 30px">
+					<source src="song.ogg" type="audio/ogg">
+					<source src="2.mp3" type="audio/mpeg">
+				</audio>
+				<audio controls="controls" style="margin-top: 30px">
+					<source src="song.ogg" type="audio/ogg">
+					<source src="3.mp3" type="audio/mpeg">
+				</audio>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-12 border" style="height: 200px; margin-top: 397px">
+				<h2>Prees F11 for more experience</h2>
+				<p>created by pars1faL</p>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
